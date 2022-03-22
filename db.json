@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "login": "userName12", "password": "qwerty123" },
+    { "id": 2, "login": "andrey2", "password": "admin" },
+    { "id": 3, "login": "computer", "password": "rrrrwwww" },
+    { "id": 4, "login": "jedai", "password": "lol" },
+    { "id": 5, "login": "gamer", "password": "winner" }
+  ]
+}
