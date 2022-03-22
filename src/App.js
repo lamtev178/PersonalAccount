@@ -17,8 +17,7 @@ function App() {
       response = response.filter(user => {
         return (user.login===e.target[0].value) && (user.password===e.target[1].value)
       })
-      console.log(response);
-      response.length > 0 ? dispatch({type:'LOGIN_IN'}) : alert('This login not authorized')
+      response.length > 0 ? dispatch({type:'LOGIN_IN', payload:response[0]}) : alert('This login not authorized')
     })
     .catch((error) => {
       alert(error)

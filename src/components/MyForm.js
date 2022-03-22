@@ -1,7 +1,7 @@
 import { Form, FormGroup, Label, Button, Input } from 'reactstrap';
 function MyForm({onSubmit}) {
   return (
-<Form onSubmit={onSubmit}>
+    <Form onSubmit={onSubmit}>
         <FormGroup>
           <Label for="login">
             Login
@@ -22,10 +22,10 @@ function MyForm({onSubmit}) {
             type="password"
           />
         </FormGroup>
-        <Button>
-          Submit
+        <Button color='primary'>
+          Login In
         </Button>
-      </Form>
+    </Form>
   );
 }
 

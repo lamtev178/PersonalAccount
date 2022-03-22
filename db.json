@@ -1,9 +1,99 @@
 {
   "users": [
-    { "id": 1, "login": "userName12", "password": "qwerty123" },
-    { "id": 2, "login": "andrey2", "password": "admin" },
-    { "id": 3, "login": "computer", "password": "rrrrwwww" },
-    { "id": 4, "login": "jedai", "password": "lol" },
-    { "id": 5, "login": "gamer", "password": "winner" }
+    {
+      "id": 1,
+      "login": "userName12",
+      "password": "qwerty123",
+      "contacts": [
+        {
+          "id": 1,
+          "name": "Alex"
+        },
+        {
+          "id": 2,
+          "name": "John"
+        },
+        {
+          "id": 3,
+          "name": "Bogdan"
+        },
+        {
+          "id": 4,
+          "name": "Sam"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "login": "andrey2",
+      "password": "admin",
+      "contacts": [
+        {
+          "id": 1,
+          "name": "Alex"
+        },
+        {
+          "id": 2,
+          "name": "John"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "login": "computer",
+      "password": "rrrrwwww",
+      "contacts": [
+        {
+          "id": 2,
+          "name": "Sarah"
+        },
+        {
+          "id": 1647972731099,
+          "name": "Oleg"
+        },
+        {
+          "id": 1647972757994,
+          "name": "Bogdan"
+        },
+        {
+          "id": 1647972760899,
+          "name": "Alex"
+        },
+        {
+          "id": 1647972780132,
+          "name": "mr.Anderson"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "login": "jedai",
+      "password": "lol",
+      "contacts": [
+        {
+          "id": 1,
+          "name": "Alex"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "login": "gamer",
+      "password": "winner",
+      "contacts": [
+        {
+          "id": 1,
+          "name": "Alex"
+        },
+        {
+          "id": 2,
+          "name": "John"
+        },
+        {
+          "id": 3,
+          "name": "Bogdan"
+        }
+      ]
+    }
   ]
 }

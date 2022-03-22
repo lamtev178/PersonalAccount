@@ -6,14 +6,14 @@ export default configureStore({
 })
 
 
-function isAuthReduser(state = {isAuth: false}, action) {
+function isAuthReduser(state = {isAuth: false, userContacs:[]}, action) {
     switch(action.type){
-    case 'LOGIN_IN' :
-      return {...state, isAuth:true}
+      case 'LOGIN_IN' :
+        return {...state, isAuth:true, userContacs:action.payload}
 
-    case 'LOGIN_OUT' : 
-      return {...state, isAuth:false}
+      case 'LOGIN_OUT' : 
+        return {...state, isAuth:false, userContacs:[]}
 
-    default: 
-      return state
+      default: 
+        return state
 }}
